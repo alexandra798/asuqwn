@@ -1,6 +1,8 @@
 package com.forum.mapper;
 
 import com.forum.model.entity.Report;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 
 import java.time.LocalDateTime;
